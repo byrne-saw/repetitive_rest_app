@@ -1,0 +1,2 @@
+class Mainzer < ApplicationRecord
+end
