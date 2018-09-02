@@ -1,0 +1,32 @@
+1) Rails & Model Cheat Sheet:
+  a) rails new name-of-your-app
+  b) cd name-of-your-app
+  c) rails db:create
+  d) rails server
+  e) rails generate controller namespace/name_of_your_controllers (PLURAL)
+  f) rails generate model ModelName attribute_1 attribute_2 attribute_3 (SINGULAR)
+  g) rails db:migrate
+
+2) add:
+  protect_from_forgery with: :null_session
+  to app/controller/application_controller.rb
+
+3) add
+    gem 'ffaker' 
+  to /Gemfile
+
+  in bash: bundle
+
+4) create a seed file
+  rails db:seed
+
+5) make routes in app/config/routes.rb
+  index
+  create
+  show
+  update
+  destroy
+
+6) make index and show views in app/views/api/[controller_name]
+
+7) test routes via insomnia / runner.rb
