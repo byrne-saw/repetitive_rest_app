@@ -1,0 +1,2 @@
+class Pog < ApplicationRecord
+end
