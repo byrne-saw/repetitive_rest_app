@@ -27,4 +27,10 @@ class Api::MainzersController < ApplicationController
     render "show.json.jbuilder"
   end
 
+  def destroy
+    @mainzer = Mainzer.find(params[:id])
+    @mainzer.destroy 
+    render json: {message: "sandro says goodbye"}    
+  end
+
 end
